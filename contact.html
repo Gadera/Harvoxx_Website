@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Assets/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="Assets/boxicons-2.1.4/css/boxicons.css">
+    <link rel="stylesheet" href="Assets/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="modal"></div>
+        <h2 class="logo-text" id="logo-text">HARVOXX <span class="yellow">TECH HUB</span></h2>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="get-btn"><a href="">Get Started</a></li>
+        </ul>
+        <i class='bx bx-menu' id="menu"></i>
+    </section>
+
+    <section class="contact">
+        <div class="contact_h">
+            <h2>CONTACT</h2>
+        </div>
+        <div class="contact_contain">
+            <div class="info">
+                <div class="address" data-aos="fade-up" data-aos-duration="1000">
+                    <i class='bx bx-map'></i>
+                    <h3>Our Address</h3>
+                    <p>Elzazi complex, Opposite Westharm petrol station along gbalajam/Akpajo road, woji (Odili Road, Port-Harcourt)</p>
+                </div>
+                <div class="email" data-aos="fade-up" data-aos-duration="1200">
+                    <i class='bx bx-envelope' ></i>
+                    <h3>Email Us</h3>
+                    <p>Hello@harvoxx.com<br>Help@harvoxx.com<br>Admin@harvoxx.com</p>
+                </div>
+                <div class="call" data-aos="fade-up" data-aos-duration="1200">
+                    <i class='bx bx-phone-call' ></i>
+                    <h3>Call Us</h3>
+                    <p>+2349011684637<br>+2349065308024<br>+2349030643105</p>
+                </div>
+            </div>
+            <form class="form_div" data-aos="fade-up" data-aos-duration="1000" onsubmit="return validate()">
+                <input type="text" class="name" id="fullname" placeholder="Your Name" required>
+                <input type="email" class="email" id="email" placeholder="Your Email" required>
+                <input type="number" class="phone" id="phone" placeholder="Your Phone Number" required>
+                <input type="text" class="subject" id="subject" placeholder="Subject" required>
+                <textarea class="message" id="message" placeholder="Message" rows="10" class="message" required></textarea>
+                <!-- <button type="button" id="btnn" class="submit_button" onclick="shout()">Send</button> -->
+                <button type="submit" id="btn" class="submit_button">Send</button>  
+            </form>
+        </div>
+    </section> 
+
+    <section class="footer">
+        <div class="overlay">
+            <h1 data-aos="fade-up" data-aos-duration="1000">Harvoxx Tech. Hub.</h1>
+            <i data-aos="fade-up" data-aos-duration="1000">Get latest latest info's on our Events, trainings and tech presentations. subscribe below</i>
+            <form data-aos="fade-up" data-aos-duration="1000">
+                <input type="email" placeholder="Enter Your Email">
+                <button>Subscribe</button>
+            </form>
+            <h4>© Copyright Harvoxx tech. hub. All Rights Reserved</h4>
+            <a href="" class="caret">
+                <i class="fa-sharp fa-solid fa-angle-up"></i>
+            </a>
+        </div>
+    </section>
+
+    <script src="Assets/aos-master/dist/aos.js"></script>
+
+    <script src="Assets/js/script.js"></script>
+</body>
+</html>

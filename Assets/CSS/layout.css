@@ -1,0 +1,138 @@
+/*.container{
+    background-color:lightblue ;
+    height: auto;
+    width: 600px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container .box1{
+    height: 150px;
+    width: 49%;
+    background-color: white;
+}
+
+.container .box2{
+    height: 150px;
+    width: 49%;
+    margin-left: 2%;
+    background-color: pink;
+}
+
+.container .box3{
+    height: 150px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(128, 127, 127);
+}
+
+.container .box4{
+    height: 150px;
+    width: 32%;
+    margin-right: 2%;
+    background-color: palevioletred;
+}
+
+.container .box5{
+    height: 150px;
+    width: 32%;
+    margin-right: 2%;
+    background-color: burlywood;
+}
+
+.container .box6{
+    height: 150px;
+    width: 32%;
+    background-color: lightcyan;
+}
+
+.container .box7{
+    height: 150px;
+    width: 23.5%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: burlywood;
+}
+
+.container .box8{
+    height: 150px;
+    width: 23.5%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: burlywood;
+}
+
+.container .box9{
+    height: 150px;
+    width: 23.5%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: burlywood;
+}
+
+.container .box10{
+    height: 150px;
+    width: 23.5%;
+    margin-top: 2%;
+    background-color: burlywood;
+}*/
+
+.about{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.about .left{
+    width: 40%;
+    height: auto;
+    background-color: pink;
+    
+}
+
+
+
+.rel1{
+    position: relative;
+    background-color: lightseagreen;
+    z-index: 2;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.rel2{ 
+    position: relative;
+    z-index: 1;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+}
+
+.absol{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.fixed{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: 2;
+}
